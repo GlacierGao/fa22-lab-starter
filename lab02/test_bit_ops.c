@@ -33,7 +33,7 @@ void test_flip_bit(unsigned x, unsigned n, unsigned expected) {
 int main(int argc, const char * argv[]) {
     printf("\nTesting get_bit()\n\n");
     test_get_bit(0b1001110,0,0);
-    test_get_bit(0b1001110,1,1);
+    test_get_bit(0b1001110,1,1);//0100111 0010011 0001001 0000100 0000010
     test_get_bit(0b1001110,5,0);
     test_get_bit(0b11011,3,1);
     test_get_bit(0b11011,2,0);
